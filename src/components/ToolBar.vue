@@ -2,7 +2,7 @@
   <div class="header">
     <router-link to="/news">News뉴스</router-link> |
     <router-link to="/ask">Ask애스크</router-link> |
-    <router-link to="/jobs">Jobs</router-link>
+    <router-link to="/jobs">Jobs잡스</router-link>
   </div>
 </template>
 
