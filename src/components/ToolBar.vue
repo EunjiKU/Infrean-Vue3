@@ -1,7 +1,7 @@
 <template>
   <div class="header">
     <router-link to="/news">News</router-link> |
-    <router-link to="/ask">Ask</router-link> |
+    <router-link to="/ask">Ask이지미디어</router-link> |
     <router-link to="/jobs">Jobs이지미디어</router-link>
   </div>
 </template>
