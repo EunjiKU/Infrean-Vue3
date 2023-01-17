@@ -14,7 +14,7 @@
             </a>
           </p>
           <small class="link-text">
-            by
+            {{ item.time_ago }} by
             <router-link v-bind:to="`/user/${item.user}`" class="link-text">{{ item.user }}</router-link>
           </small>
         </div>
@@ -41,28 +41,28 @@ export default {
 </script>
 
 <style scoped>
-.news-list {
-  margin: 0;
-  padding: 0;
-}
-.post {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  border-block: 1px solid #eee;
-}
-.points {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 60px;
-  color: #42b883;
-}
-.news-title {
-  margin: 0;
-}
-.link-text {
-  color: #828282;
-}
+  .news-list {
+    margin: 0;
+    padding: 0;
+  }
+  .post {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    border-block: 1px solid #eee;
+  }
+  .points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 60px;
+    color: #42b883;
+  }
+  .news-title {
+    margin: 0;
+  }
+  .link-text {
+    color: #828282;
+  }
 </style>

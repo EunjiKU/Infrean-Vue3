@@ -19,4 +19,13 @@
 .header a {
   color: white;
 }
+.header a:first-child {
+  margin-right: 6px;
+}
+.header a:nth-child(2) {
+  margin: 0 6px;
+}
+.header a:last-child {
+  margin-left: 6px;
+}
 </style>
