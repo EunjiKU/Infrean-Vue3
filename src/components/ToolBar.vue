@@ -1,6 +1,6 @@
 <template>
   <div class="header">
-    ⭐메인⭐
+    ⭐섹션2⭐
     <router-link to="/news">New</router-link> |
     <router-link to="/ask">Ask</router-link> |
     <router-link to="/jobs">Jobs</router-link>
