@@ -42,7 +42,7 @@
 export default {
   computed: {
     listItems() {
-      return this.$store.state.list;W
+      return this.$store.state.list;
     }
   }
 }
